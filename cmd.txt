@@ -1,22 +1,11 @@
-mv /System/Library/Extensions/AppleFWAudio.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleFWAudio.kext
-mv /System/Library/Extensions/AppleThunderboltNHI.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleThunderboltNHI.kext
-
-mv /System/Library/Extensions/AppleUSBDisplays.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleUSBDisplays.kext
-
-mv /System/Library/Extensions/AppleThunderboltDPAdapters.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleThunderboltDPAdapters.kext
-
-mv /System/Library/Extensions/AppleThunderboltPCIAdapters.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleThunderboltPCIAdapters.kext
-
-mv /System/Library/Extensions/AppleUSBEthernet.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleUSBEthernet.kext
-
-mv /System/Library/Extensions/AppleThunderboltEDMService.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleThunderboltEDMService.kext
-
-mv /System/Library/Extensions/AppleThunderboltUTDM.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleThunderboltUTDM.kext
-
-mv /System/Library/Extensions/AppleUSBEthernetHost.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleUSBEthernetHost.kext
-
-mv /System/Library/Extensions/AppleThunderboltIP.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleThunderboltIP.kext
-
-mv /System/Library/Extensions/AppleUSBAudio.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/AppleUSBAudio.kext
-
-mv /System/Library/Extensions/IOUserEthernet.kext /Volumes/Macbook\ Pro\ 15/Users/connor/Documents/DisabledExtensions/IOUserEthernet.kext
+sudo kextunload /System/Library/Extensions/AppleFWAudio.kext
+sudo kextunload /System/Library/Extensions/AppleThunderboltNHI.kext
+sudo kextunload /System/Library/Extensions/AppleUSBDisplays.kext
+sudo kextunload /System/Library/Extensions/AppleThunderboltDPAdapters.kext
+sudo kextunload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext
+sudo kextunload /System/Library/Extensions/AppleUSBEthernet.kext
+sudo kextunload /System/Library/Extensions/AppleThunderboltEDMService.kext
+sudo kextunload /System/Library/Extensions/AppleThunderboltUTDM.kext
+sudo kextunload /System/Library/Extensions/AppleThunderboltIP.kext
+sudo kextunload /System/Library/Extensions/AppleUSBAudio.kext
+sudo kextunload /System/Library/Extensions/IOUserEthernet.kext
