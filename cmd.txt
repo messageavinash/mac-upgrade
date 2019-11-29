@@ -1,0 +1,23 @@
+sudo mv /System/Library/Extensions/AppleFWAudio.kext /System/Library/DisabledExtensions/AppleFWAudio.kext
+
+sudo mv /System/Library/Extensions/AppleThunderboltNHI.kext /System/Library/DisabledExtensions/AppleThunderboltNHI.kext
+
+sudo mv /System/Library/Extensions/AppleUSBDisplays.kext /System/Library/DisabledExtensions/AppleUSBDisplays.kext
+
+sudo mv /System/Library/Extensions/AppleThunderboltDPAdapters.kext /System/Library/DisabledExtensions/AppleThunderboltDPAdapters.kext
+
+sudo mv /System/Library/Extensions/AppleThunderboltPCIAdapters.kext /System/Library/DisabledExtensions/AppleThunderboltPCIAdapters.kext
+
+sudo mv /System/Library/Extensions/AppleUSBEthernet.kext /System/Library/DisabledExtensions/AppleUSBEthernet.kext
+
+sudo mv /System/Library/Extensions/AppleThunderboltEDMService.kext /System/Library/DisabledExtensions/AppleThunderboltEDMService.kext
+
+sudo mv /System/Library/Extensions/AppleThunderboltUTDM.kext /System/Library/DisabledExtensions/AppleThunderboltUTDM.kext
+
+sudo mv /System/Library/Extensions/AppleUSBEthernetHost.kext /System/Library/DisabledExtensions/AppleUSBEthernetHost.kext
+
+sudo mv /System/Library/Extensions/AppleThunderboltIP.kext /System/Library/DisabledExtensions/AppleThunderboltIP.kext
+
+sudo mv /System/Library/Extensions/AppleUSBAudio.kext /System/Library/DisabledExtensions/AppleUSBAudio.kext
+
+sudo mv /System/Library/Extensions/IOUserEthernet.kext /System/Library/DisabledExtensions/IOUserEthernet.kext
