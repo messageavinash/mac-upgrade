@@ -1,0 +1,11 @@
+kextunload /System/Library/Extensions/AppleFWAudio.kext
+kextunload /System/Library/Extensions/AppleThunderboltNHI.kext
+kextunload /System/Library/Extensions/AppleUSBDisplays.kext
+kextunload /System/Library/Extensions/AppleThunderboltDPAdapters.kext
+kextunload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext
+kextunload /System/Library/Extensions/AppleUSBEthernet.kext
+kextunload /System/Library/Extensions/AppleThunderboltEDMService.kext
+kextunload /System/Library/Extensions/AppleThunderboltUTDM.kext
+kextunload /System/Library/Extensions/AppleThunderboltIP.kext
+kextunload /System/Library/Extensions/AppleUSBAudio.kext
+kextunload /System/Library/Extensions/IOUserEthernet.kext
